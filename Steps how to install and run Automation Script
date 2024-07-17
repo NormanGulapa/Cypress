@@ -1,0 +1,6 @@
+Download and Install VS code.
+Make sure you have node.js (Which include npm, the Node Package Manager) installed on your machine. You can download it from nodejs.org
+Initialize your project: If your project does not already have a package.json file, create one by navigating to your project directory in the terminal and running: npm init -y
+Install Cypress: Once Node.js and npm are set up, install Cypress as a dev dependency in your project. Run the following command in your terminal: npm install cypress --save-dev
+Verify Installation: after installation completes, you can verify Cypress by running: npx cypress --version
+Open Cypress: To open Cypress and start using it for testing, run: npx cypress open 
